@@ -8,7 +8,7 @@ var snowfall;
 var fall=[];
 function preload()
 {
-    scene=loadImage("snow1.jpg");
+    scene=loadImage("snow2.jpg");
     snowimage=loadImage("snow4.webp");
 }
 
@@ -34,6 +34,6 @@ function draw() {
   {
     fall[i].display();
   }
-  
+  console.log("snowfall")
   drawSprites();
 }
