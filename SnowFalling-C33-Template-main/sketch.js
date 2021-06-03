@@ -8,7 +8,7 @@ var snowfall;
 var fall=[];
 function preload()
 {
-    scene=loadImage("snow2.jpg");
+    scene=loadImage("snow1.jpg");
     snowimage=loadImage("snow4.webp");
 }
 
